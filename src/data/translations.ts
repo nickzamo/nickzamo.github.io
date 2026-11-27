@@ -19,6 +19,17 @@ const es = {
     language: "Idioma",
     skip: "Saltar al contenido",
   },
+  hero: {
+    eyebrow: "FULL STACK DEVELOPER · PRODUCT BUILDER",
+    title: "Building Digital Solutions",
+    subtitle:
+      "Desarrollo productos web, móviles y de escritorio que resuelven problemas reales, combinando ingeniería, diseño y nuevas tecnologías.",
+    ctaProjects: "Ver proyectos",
+    ctaContact: "Contáctame",
+    photoAlt: "Fotografía de Nick Zamora",
+    badgeName: "Nick Zamora",
+    badgeRole: "Web Development Lead",
+  },
   footer: { rights: "Todos los derechos reservados." },
 };
 
@@ -40,6 +51,17 @@ const en: typeof es = {
     closeMenu: "Close menu",
     language: "Language",
     skip: "Skip to content",
+  },
+  hero: {
+    eyebrow: "FULL STACK DEVELOPER · PRODUCT BUILDER",
+    title: "Building Digital Solutions",
+    subtitle:
+      "I build web, mobile and desktop products that solve real problems, combining engineering, design and new technologies.",
+    ctaProjects: "View projects",
+    ctaContact: "Contact me",
+    photoAlt: "Photo of Nick Zamora",
+    badgeName: "Nick Zamora",
+    badgeRole: "Web Development Lead",
   },
   footer: { rights: "All rights reserved." },
 };
