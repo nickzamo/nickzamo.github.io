@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import { cn } from "@/lib/cn";
+import { Reveal } from "./Reveal";
 
 export function Section({
   id,
@@ -12,7 +13,9 @@ export function Section({
 }) {
   return (
     <section id={id} className={cn("scroll-mt-20 py-20 sm:py-28", className)}>
-      <div className="mx-auto w-full max-w-6xl px-5 sm:px-8">{children}</div>
+      <div className="mx-auto w-full max-w-6xl px-5 sm:px-8">
+        <Reveal>{children}</Reveal>
+      </div>
     </section>
   );
 }
