@@ -53,6 +53,26 @@ const es = {
     github: "Ver en GitHub",
     demo: "Ver demo",
   },
+  experience: {
+    eyebrow: "CAREER",
+    title: "Experiencia profesional",
+    lead: "",
+  },
+  stack: {
+    eyebrow: "TECH STACK",
+    title: "Tecnologías",
+    lead: "Las herramientas con las que construyo.",
+    groups: {
+      frontend: "Frontend",
+      backend: "Backend",
+      cms: "CMS",
+      mobile: "Mobile",
+      desktop: "Desktop",
+      databases: "Bases de datos",
+      infra: "Infraestructura",
+      tools: "Herramientas",
+    },
+  },
   footer: { rights: "Todos los derechos reservados." },
 };
 
@@ -108,6 +128,26 @@ const en: typeof es = {
     stackTbd: "Stack to be defined",
     github: "View on GitHub",
     demo: "View demo",
+  },
+  experience: {
+    eyebrow: "CAREER",
+    title: "Professional experience",
+    lead: "",
+  },
+  stack: {
+    eyebrow: "TECH STACK",
+    title: "Technologies",
+    lead: "The tools I build with.",
+    groups: {
+      frontend: "Frontend",
+      backend: "Backend",
+      cms: "CMS",
+      mobile: "Mobile",
+      desktop: "Desktop",
+      databases: "Databases",
+      infra: "Infrastructure",
+      tools: "Tools",
+    },
   },
   footer: { rights: "All rights reserved." },
 };
