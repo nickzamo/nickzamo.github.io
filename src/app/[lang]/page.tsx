@@ -1,5 +1,7 @@
 import { notFound } from "next/navigation";
 import { Background } from "@/components/ui/Background";
+import { About } from "@/components/about/About";
+import { Highlights } from "@/components/highlights/Highlights";
 import { Hero } from "@/components/hero/Hero";
 import { Header } from "@/components/navigation/Header";
 import { LangAttr } from "@/components/navigation/LangAttr";
@@ -24,6 +26,8 @@ export default async function Page({ params }: { params: Promise<{ lang: string 
       <Header lang={lang} t={t.nav} />
       <main id="main">
         <Hero t={t.hero} />
+        <Highlights t={t.highlights} />
+        <About t={t.about} />
       </main>
     </>
   );
