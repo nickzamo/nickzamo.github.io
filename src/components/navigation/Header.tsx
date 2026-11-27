@@ -48,7 +48,7 @@ export function Header({ lang, t }: { lang: Locale; t: Dictionary["nav"] }) {
             href={`/${other}/`}
             hrefLang={other}
             lang={other}
-            aria-label={`${t.language}: ${other.toUpperCase()}`}
+            aria-label={`${lang.toUpperCase()} / ${other.toUpperCase()}, ${t.language}`}
             className="hover:border-cyan hover:text-cyan rounded-md border border-white/15 px-2.5 py-1.5 font-mono text-xs transition"
           >
             <span className="text-cyan">{lang.toUpperCase()}</span> / {other.toUpperCase()}

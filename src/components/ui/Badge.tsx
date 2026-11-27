@@ -5,7 +5,7 @@ type Tone = "cyan" | "violet" | "neutral";
 
 const tones: Record<Tone, string> = {
   cyan: "border-cyan/40 text-cyan bg-cyan/10",
-  violet: "border-violet/40 text-violet bg-violet/10",
+  violet: "border-violet/40 text-[#d3b8ff] bg-violet/10",
   neutral: "border-white/15 text-fg-muted bg-white/5",
 };
 
