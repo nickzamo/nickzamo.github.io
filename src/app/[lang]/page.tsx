@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import { Background } from "@/components/ui/Background";
+import { Hero } from "@/components/hero/Hero";
 import { Header } from "@/components/navigation/Header";
 import { LangAttr } from "@/components/navigation/LangAttr";
 import { getDictionary } from "@/data/translations";
@@ -21,8 +22,8 @@ export default async function Page({ params }: { params: Promise<{ lang: string 
       <LangAttr lang={lang} />
       <Background />
       <Header lang={lang} t={t.nav} />
-      <main id="main" className="pt-16">
-        <section id="home" className="min-h-screen" />
+      <main id="main">
+        <Hero t={t.hero} />
       </main>
     </>
   );
