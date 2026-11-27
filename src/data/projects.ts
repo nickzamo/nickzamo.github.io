@@ -1,0 +1,116 @@
+import type { Project } from "@/types/project";
+
+// Todos los repositorios son privados hoy: no se enlazan hasta que se publiquen.
+export const projects: Project[] = [
+  {
+    id: "app_financiera",
+    icon: "wallet",
+    name: "App Financiera",
+    summary: {
+      es: "Seguimiento de ingresos, gastos e inversiones, con visualización de rendimiento y posiciones consolidadas en MXN. Considera acciones y ETFs de EE.UU. y de México.",
+      en: "Tracking of income, expenses and investments, with performance charts and positions consolidated in MXN. Covers US and Mexican stocks and ETFs.",
+    },
+    stack: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Prisma",
+      "PostgreSQL",
+      "NextAuth",
+      "shadcn/ui",
+      "Tailwind",
+      "Recharts",
+      "Zod",
+      "Vitest",
+      "Docker",
+    ],
+  },
+  {
+    id: "app_gymLife",
+    icon: "dumbbell",
+    name: "GymLife",
+    summary: {
+      es: "Entrenador personal que genera y adapta rutinas a partir de tu historial real de ejercicio. App móvil y API.",
+      en: "Personal trainer that generates and adapts routines from your real workout history. Mobile app and API.",
+    },
+    stack: [
+      "Expo",
+      "React Native",
+      "Expo Router",
+      "Next.js API",
+      "Prisma",
+      "PostgreSQL",
+      "Zod",
+      "Vitest",
+      "Docker",
+      "Node.js",
+    ],
+  },
+  {
+    id: "app_SFTP",
+    icon: "folder-sync",
+    name: "SFTP Client",
+    summary: {
+      es: "Aplicación de escritorio con interfaz de dos paneles para gestionar archivos y transferencias por SFTP.",
+      en: "Desktop app with a two-pane interface to manage files and transfers over SFTP.",
+    },
+    stack: [
+      "Electron",
+      "React",
+      "TypeScript",
+      "electron-vite",
+      "ssh2",
+      "ssh2-sftp-client",
+      "electron-builder",
+      "Vitest",
+    ],
+  },
+  {
+    id: "control_gestual",
+    icon: "hand",
+    name: "Gesture Control",
+    summary: {
+      es: "App nativa de macOS para controlar el cursor y el zoom con gestos de las manos capturados por cámara. El video se procesa en local y no se almacena.",
+      en: "Native macOS app to control the cursor and zoom with hand gestures captured by the camera. Video is processed locally and never stored.",
+    },
+    stack: [
+      "Swift",
+      "Swift Package Manager",
+      "Apple Vision",
+      "Hand detection",
+      "OneEuro filter",
+      "Gesture recognition",
+      "Calibration",
+    ],
+  },
+  {
+    id: "WhatsApp_english",
+    icon: "message",
+    name: "WhatsApp English",
+    summary: {
+      es: "Tutor de inglés por WhatsApp: envías un audio y recibes una respuesta hablada, más feedback escrito de gramática, vocabulario y pronunciación.",
+      en: "English tutor over WhatsApp: send an audio message and get a spoken reply plus written feedback on grammar, vocabulary and pronunciation.",
+    },
+    stack: [
+      "Node.js",
+      "TypeScript",
+      "Express",
+      "PostgreSQL",
+      "pg",
+      "tsx",
+      "Vitest",
+      "Docker Compose",
+      "OpenSpec",
+    ],
+  },
+  {
+    id: "agenda_whats",
+    icon: "calendar",
+    name: "Agenda WhatsApp",
+    summary: {
+      es: "Sistema de recordatorios y notificaciones personalizadas a través de WhatsApp.",
+      en: "Reminder and custom notification system delivered through WhatsApp.",
+    },
+    stack: [],
+  },
+];

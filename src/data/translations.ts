@@ -44,6 +44,15 @@ const es = {
     areas: ["Liderazgo", "Arquitectura", "Desarrollo", "Enseñanza"],
     editorLabel: "Perfil en formato de código",
   },
+  projects: {
+    eyebrow: "SELECTED WORK",
+    title: "Proyectos destacados",
+    lead: "Productos propios en web, móvil y escritorio.",
+    preview: "Vista ilustrativa, no es una captura real",
+    stackTbd: "Stack por definir",
+    github: "Ver en GitHub",
+    demo: "Ver demo",
+  },
   footer: { rights: "Todos los derechos reservados." },
 };
 
@@ -90,6 +99,15 @@ const en: typeof es = {
     p2: "I also enjoy building my own products, exploring new technologies and sharing what I learn by teaching programming.",
     areas: ["Leadership", "Architecture", "Development", "Teaching"],
     editorLabel: "Profile as code",
+  },
+  projects: {
+    eyebrow: "SELECTED WORK",
+    title: "Featured projects",
+    lead: "Personal products across web, mobile and desktop.",
+    preview: "Illustrative preview, not a real screenshot",
+    stackTbd: "Stack to be defined",
+    github: "View on GitHub",
+    demo: "View demo",
   },
   footer: { rights: "All rights reserved." },
 };
