@@ -2,9 +2,11 @@ import { notFound } from "next/navigation";
 import { Background } from "@/components/ui/Background";
 import { About } from "@/components/about/About";
 import { Highlights } from "@/components/highlights/Highlights";
+import { Projects } from "@/components/projects/Projects";
 import { Hero } from "@/components/hero/Hero";
 import { Header } from "@/components/navigation/Header";
 import { LangAttr } from "@/components/navigation/LangAttr";
+import { projects } from "@/data/projects";
 import { getDictionary } from "@/data/translations";
 import { isLocale, locales } from "@/lib/i18n";
 
@@ -26,8 +28,9 @@ export default async function Page({ params }: { params: Promise<{ lang: string 
       <Header lang={lang} t={t.nav} />
       <main id="main">
         <Hero t={t.hero} />
-        <Highlights t={t.highlights} />
+        <Highlights t={t.highlights} projectCount={projects.length} />
         <About t={t.about} />
+        <Projects lang={lang} t={t.projects} />
       </main>
     </>
   );
