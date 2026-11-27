@@ -73,6 +73,15 @@ const es = {
       tools: "Herramientas",
     },
   },
+  contact: {
+    eyebrow: "LET'S CONNECT",
+    title: "Construyamos algo interesante.",
+    lead: "¿Tienes una idea, un proyecto o simplemente quieres conversar sobre tecnología?",
+    cta: "Contáctame",
+    email: "Correo",
+    github: "GitHub",
+    linkedin: "LinkedIn",
+  },
   footer: { rights: "Todos los derechos reservados." },
 };
 
@@ -148,6 +157,15 @@ const en: typeof es = {
       infra: "Infrastructure",
       tools: "Tools",
     },
+  },
+  contact: {
+    eyebrow: "LET'S CONNECT",
+    title: "Let's build something interesting.",
+    lead: "Have an idea, a project, or just want to talk tech?",
+    cta: "Contact me",
+    email: "Email",
+    github: "GitHub",
+    linkedin: "LinkedIn",
   },
   footer: { rights: "All rights reserved." },
 };
