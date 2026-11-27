@@ -3,6 +3,8 @@ import { Background } from "@/components/ui/Background";
 import { About } from "@/components/about/About";
 import { Highlights } from "@/components/highlights/Highlights";
 import { Projects } from "@/components/projects/Projects";
+import { Experience } from "@/components/experience/Experience";
+import { TechStack } from "@/components/tech-stack/TechStack";
 import { Hero } from "@/components/hero/Hero";
 import { Header } from "@/components/navigation/Header";
 import { LangAttr } from "@/components/navigation/LangAttr";
@@ -31,6 +33,8 @@ export default async function Page({ params }: { params: Promise<{ lang: string 
         <Highlights t={t.highlights} projectCount={projects.length} />
         <About t={t.about} />
         <Projects lang={lang} t={t.projects} />
+        <Experience lang={lang} t={t.experience} />
+        <TechStack t={t.stack} />
       </main>
     </>
   );
