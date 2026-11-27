@@ -7,8 +7,8 @@ export function About({ t }: { t: Dictionary["about"] }) {
   return (
     <Section id="about">
       <SectionHeading eyebrow={t.eyebrow} title={t.title} />
-      <div className="grid items-center gap-10 lg:grid-cols-2">
-        <div className="text-fg-muted space-y-4 text-base sm:text-lg">
+      <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-2">
+        <div className="text-fg-muted min-w-0 space-y-4 text-base sm:text-lg">
           <p>{t.p1}</p>
           <p>{t.p2}</p>
           <ul className="flex flex-wrap gap-2 pt-2">

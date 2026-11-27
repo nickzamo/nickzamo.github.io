@@ -16,7 +16,7 @@ export function Hero({ t }: { t: Dictionary["hero"] }) {
     <MotionConfig reducedMotion="user">
       <section id="home" className="relative overflow-hidden pt-16">
         <Waves />
-        <div className="relative mx-auto grid min-h-[calc(100svh-4rem)] w-full max-w-6xl items-center gap-12 px-5 py-16 sm:px-8 lg:grid-cols-[1.1fr_0.9fr]">
+        <div className="relative mx-auto grid min-h-[calc(100svh-4rem)] w-full max-w-6xl grid-cols-1 items-center gap-12 px-5 py-16 sm:px-8 lg:grid-cols-[1.1fr_0.9fr]">
           <motion.div
             initial="hidden"
             animate="show"
