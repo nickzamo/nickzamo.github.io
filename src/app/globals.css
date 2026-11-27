@@ -42,3 +42,12 @@ body {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Fondo de grid reutilizable */
+.bg-grid {
+  background-image:
+    linear-gradient(to right, rgb(0 217 255 / 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(0 217 255 / 0.06) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse at 50% 30%, black 20%, transparent 75%);
+}
