@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+/* Design tokens — ver plan.md §2 */
+@theme {
+  --color-bg: #060b1a;
+  --color-bg-alt: #080c20;
+  --color-surface: #0c1428;
+  --color-cyan: #00d9ff;
+  --color-violet: #a855f7;
+  --color-magenta: #d946ef;
+  --color-fg: #f4f7ff;
+  --color-fg-muted: #a7b4cc;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-fg);
+  font-family: var(--font-sans);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-cyan);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
